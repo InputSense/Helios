@@ -7,10 +7,13 @@ def init():  # called first/once at runtime
     return
 
 
-def main():
+def main():  # loops indefinitely
 
     if cv_ready():
-        continue
+        # will evaluate True once per cv frame
+        # to receive cv_data from running cv script
+        # always False if no cv script is running
+        pass
 
     return
 
