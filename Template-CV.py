@@ -2,8 +2,10 @@ import os
 import cv2
 
 
+
 class CVWorker:
-    
+
+
     def __init__(self, width, height):
         os.chdir(os.path.dirname(__file__))
 
