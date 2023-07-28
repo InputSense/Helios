@@ -2,6 +2,11 @@
 # used for auto complete in IDEs
 from vg_helper import *
 
+# set script metadata
+__title__ = 'Template'
+__author__ = 'jaj'
+__version__ = '1.0'
+
 
 def init():  # called first/once at runtime
     return
@@ -10,11 +15,12 @@ def init():  # called first/once at runtime
 def main():  # loops indefinitely
 
     if cv_ready():
-        # will evaluate True once per cv frame
-        # to receive cv_data from running cv script
+        # evaluates True once per cv frame
+        # receive cv_data from running cv script
         # always False if no cv script is running
         pass
 
     return
+
 
 
