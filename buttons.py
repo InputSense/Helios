@@ -49,7 +49,7 @@ class xb:
 
 
 class ps:
-    GUIDE = 0
+    PS = 0
     CREATE = 1
     OPTIONS = 2
     R1 = 3
