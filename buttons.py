@@ -1,27 +1,26 @@
 
 
-class buttons:
-    BUTTON_1 = 0
-    BUTTON_2 = 1
-    BUTTON_3 = 2
-    BUTTON_4 = 3
-    BUTTON_5 = 4
-    BUTTON_6 = 5
-    BUTTON_7 = 6
-    BUTTON_8 = 7
-    BUTTON_9 = 8
-    BUTTON_10 = 9
-    BUTTON_11 = 10
-    BUTTON_12 = 11
-    BUTTON_13 = 12
-    BUTTON_14 = 13
-    BUTTON_15 = 14
-    BUTTON_16 = 15
-    BUTTON_17 = 16
-    STICK_1_X = 17
-    STICK_1_Y = 18
-    STICK_2_X = 19
-    STICK_2_Y = 20
+BUTTON_1 = 0
+BUTTON_2 = 1
+BUTTON_3 = 2
+BUTTON_4 = 3
+BUTTON_5 = 4
+BUTTON_6 = 5
+BUTTON_7 = 6
+BUTTON_8 = 7
+BUTTON_9 = 8
+BUTTON_10 = 9
+BUTTON_11 = 10
+BUTTON_12 = 11
+BUTTON_13 = 12
+BUTTON_14 = 13
+BUTTON_15 = 14
+BUTTON_16 = 15
+BUTTON_17 = 16
+STICK_1_X = 17
+STICK_1_Y = 18
+STICK_2_X = 19
+STICK_2_Y = 20
 
 
 class xb:
@@ -70,3 +69,12 @@ class ps:
     RS_Y = 18
     LS_X = 19
     LS_Y = 20
+
+
+
+
+
+
+
+
+
