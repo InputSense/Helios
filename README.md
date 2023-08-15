@@ -61,7 +61,7 @@ CV scripts are written in python and will run within a user defined/created pyth
 
 ### Virtual Gamepad (VG)
 
-<img width="250" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/daa6dde8-9aff-4cb0-988e-40409720f96b">
+<img width="200" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/daa6dde8-9aff-4cb0-988e-40409720f96b">
 
 VG scripting is designed to be easy to pick up and understand yet powerful enough to fit all needs. It consists of a python syntax in a restricted environment. Functionality is very similar to another popular virtual gamepad scripting language, gpc. Any developer who has used the former will find VG fast and easy to use. A user GUI config and encryption of the scripts are two popular features among others. Example VG scripts for popular functions will be posted to github as time allows.
 
