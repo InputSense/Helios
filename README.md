@@ -1,6 +1,6 @@
 # Helios
 
-Helios is a full featured any input -> any output translator and development application, optimized for a computer vision interface. Allowing for quick research and development of controller interactions with on screen visuals. At this time we are in a public release beta stage. With active, ongoing development. Suggestions and feedback are welcome.
+Helios is a full featured any input -> any output translator and development application, optimized for a computer vision interface. Allowing for quick research and development of controller interactions with on screen visuals. At this time we are in a public release beta stage. With active, ongoing development. Many features are already included, and others which may seem important (such as online script resources and marketplace) are coming soon. Suggestions and feedback are always welcome.
 <br>
 <br>
 <br>
@@ -54,13 +54,15 @@ Scripts may be occassionally or regularly stopped and started throughout your se
 
 <img width="550" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/1027bff8-f70d-4c76-93b2-64d697ee6b53">
 
-CV scripts will run within a user defined python environment. This environment is not in any way related to or affected by Helios. A capture card is recommended for ideal performance, however display/window capture is or will be supported in the future. Preview Refresh rate does not affect the script in any way. Setting the preview refresh lower can save system resources which would otherwise by consumed to output video. Video Cap (FPS) sets the frame rate of the opencv and script logic processing on your video input feed. This is as supported by your capture card. By design capture cards do no support any arbitrary framerate, for example setting to 80FPS when the supported framerates are 60 or 120, will default to lower setting of 60fps
+CV scripts are written in python and will run within a user defined/created python environment. This environment is not in any way related to or affected by Helios. A capture card is recommended for ideal performance, however display/window capture is or will be supported in the future. Preview Refresh rate does not affect the script in any way. Setting the preview refresh lower can save system resources which would otherwise by consumed to output video. Video Cap (FPS) sets the frame rate of the opencv and script logic processing on your video input feed. This is as supported by your capture card. By design capture cards do no support any arbitrary framerate, for example setting to 80FPS when the supported framerates are 60 or 120, will default to lower setting of 60fps
 <br>
 <br>
 
 ### Virtual Gamepad (VG)
 
-<img width="290" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/daa6dde8-9aff-4cb0-988e-40409720f96b">
+<img width="250" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/daa6dde8-9aff-4cb0-988e-40409720f96b">
+
+VG scripting is designed to be easy to pick up and understand yet powerful enough to fit all needs. It consists of a python syntax in a restricted environment. Functionality is very similar to another popular virtual gamepad scripting language, gpc. Any developer who has used the former will find VG fast and easy to use. A user GUI config and encryption of the scripts are two popular features among others. Example VG scripts for popular functions will be posted to github as time allows.
 
 
 
