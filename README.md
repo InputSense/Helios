@@ -46,7 +46,7 @@ The value(s) of all gamepad buttons will be shown here. Actual (green) and virtu
 
 ## Scripts
 
-Scripts may be occassionally or regularly stopped and started throughout your session.
+Scripts may be occassionally or regularly stopped and started throughout your session. An error in a script process will never affect a Controller process. Scripts will seamlessly hook in and out of the Controller processes.
 <br>
 <br>
 
@@ -63,6 +63,8 @@ CV scripts are written in python and will run within a user defined/created pyth
 <img width="250" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/daa6dde8-9aff-4cb0-988e-40409720f96b">
 
 VG scripting is designed to be easy to pick up and understand yet powerful enough to fit all needs. It consists of a python syntax in a restricted environment. Functionality is very similar to another popular virtual gamepad scripting language, gpc. Any developer who has used the former will find VG fast and easy to use. A user GUI config and encryption of the scripts are two popular features among others. Example VG scripts for popular functions will be posted to github as time allows.
+
+Note: Error reporting in VG scripts is a work in progress. Currently it is common that an improperly coded VG script will silently kill the VG process when an error occurs.
 
 
 
