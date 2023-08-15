@@ -13,7 +13,7 @@ Together the input and output make up the Controller (also known is gamepad).
 
 ### Input(s)
 
-<img width="106" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/fbff339b-3555-42b3-bfb8-75aa5cbaff80">
+<img width="200" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/fbff339b-3555-42b3-bfb8-75aa5cbaff80">
 
 Most commonly is using only one input device, however multi input is supported as standard for Helios. This means any combination of multiple Xinput devices could be used at once to control Helios output (xim, zen, controller, etc.)
 
@@ -23,7 +23,7 @@ Note: At this time the Xbox Guide and PS buttons are not polled directly from th
 
 ### Output
 
-<img width="104" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/603a416f-31d5-475a-9dcd-c4cf47cab81d">
+<img width="200" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/603a416f-31d5-475a-9dcd-c4cf47cab81d">
 
 Output selections are PS (remote play + initial setup) and Xbox (remote play or PC). Xbox output will work on all pc games which support Xinput. If using the Xbox app for remote play to console, remember that the Xbox app must remain the selected window in order for the console to receive input. If using Xbox, you should also make sure the Xbox remote play app has also grabbed the correct controller upon launching.
 
