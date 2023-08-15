@@ -14,6 +14,7 @@ Together the input and output make up the Controller (also known is gamepad).
 ### Input(s)
 
 <img width="106" alt="image" src="https://github.com/InputSense/Helios/assets/39347854/fbff339b-3555-42b3-bfb8-75aa5cbaff80">
+
 Most commonly is using only one input device, however multi input is supported as standard for Helios. This means any combination of multiple Xinput devices could be used at once to control Helios output (xim, zen, controller, etc.)
 
 Note: Only Xinput is currently supported, more input protocols will be added in the future. All PS controllers are supported by using DS4Windows to translate to Xinput
