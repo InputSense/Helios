@@ -39,7 +39,7 @@ Note: Stopping the output process is never necessary and will likely lead to req
 
 ### Device Monitor
 
-The value(s) of all gamepad buttons will be shown here. The device monitor visually refreshes at 30hz so should not be used to test responsiveness. There is a response time for the entire input/modfy/output loop listed in the bottom-right most value.
+The value(s) of all gamepad buttons will be shown here. Actual (green) and virtual (yellow) are separated by type. The device monitor visually refreshes at 30hz so should not be used to test responsiveness, only for VG script functionality. There is a response time for the entire input/modfy/output loop listed in the bottom-right most value.
 <br>
 <br>
 <br>
