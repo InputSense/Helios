@@ -31,7 +31,7 @@ def main():
         # always False if no cv script is running
         pass
 
-    return
+    pass
 
 
 def my_combo():
