@@ -1,7 +1,49 @@
 from typing import Callable, Union
 
 
+# ======== GUI specific ========
+
+
+def label(title: str, text: str) -> None:
+    pass
+
+
+def checkbox(title: str, description: str = None, items: list = [], default_selection=0) -> list:
+    pass
+
+
+def radiobox(title: str, description: str = None, items: list = [], default_selection=0) -> int:
+    pass
+
+
+def combobox(title: str, description: str = None, items: list = []) -> str:
+    pass
+
+
+def spinbox(title: str, description: str = None, minimum: int = 0, maximum: int = 100, default_value: int = 50, step: int = 1) -> int:
+    pass
+
+
+def floatspinbox(title: str, description: str = None, minimum: float = 0.0, maximum: float = 100.0, default_value: float = 50.00, step: float = 0.1, decimals: int = 2) -> float:
+    pass
+
+
+def slider(title: str, description: str = None, orientation: str = "horizontal", minimum: int = 0, maximum: int = 100, default_value: int = 50) -> int:
+    pass
+
+
+def dial(title: str, description: str = None, minimum: int = 0, maximum: int = 100, default_value: int = 0) -> int:
+    pass
+
+
+def catalog(title: str, description: str = None, items: list = [], multi: bool = False) -> list:
+    pass
+
+
+
 # ======== Peristent memory types ========
+
+
 class mem:
     pass
 
@@ -25,7 +67,7 @@ def set_val(button: int, val: float) -> None:
     pass
 
 
-def set_val_for(self, button_val: Union[tuple, list[tuple]], duration: int = 0) -> None:
+def set_val_for(button_val: Union[tuple, list[tuple]], duration: int = 0) -> None:
     pass
 
 
@@ -37,15 +79,15 @@ def get_val(button: int) -> float:
     pass
 
 
-def get_prev(self, button: int) -> float:
+def get_prev(button: int) -> float:
     pass
 
 
-def event_active(self, button: int) -> float:
+def event_active(button: int) -> float:
     pass
 
 
-def event_release(self, button: int) -> float:
+def event_release(button: int) -> float:
     pass
 
 
@@ -142,6 +184,10 @@ def pow(n: Union[int, float], e: Union[int, float]) -> Union[int, float]:
 
 
 def rad2deg(r: float) -> float:
+    pass
+
+
+def rand() -> float:
     pass
 
 
