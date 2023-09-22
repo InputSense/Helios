@@ -155,6 +155,10 @@ def floor(n: Union[int, float]) -> Union[int, float]:
     pass
 
 
+def fmod(x: float, d: float) -> float:
+    pass
+
+
 def ilerp(a: float, b: float, t: float) -> float:
     pass
 
