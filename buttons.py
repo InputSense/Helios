@@ -17,10 +17,10 @@ BUTTON_14 = 13
 BUTTON_15 = 14
 BUTTON_16 = 15
 BUTTON_17 = 16
-STICK_1_X = 17
-STICK_1_Y = 18
-STICK_2_X = 19
-STICK_2_Y = 20
+STICK_1_X = 20
+STICK_1_Y = 21
+STICK_2_X = 22
+STICK_2_Y = 23
 
 
 class xb:
@@ -41,10 +41,10 @@ class xb:
     B = 14
     A = 15
     X = 16
-    RS_X = 17
-    RS_Y = 18
-    LS_X = 19
-    LS_Y = 20
+    RS_X = 20
+    RS_Y = 21
+    LS_X = 22
+    LS_Y = 23
 
 
 class ps:
@@ -65,10 +65,10 @@ class ps:
     CIRCLE = 14
     CROSS = 15
     SQUARE = 16
-    RS_X = 17
-    RS_Y = 18
-    LS_X = 19
-    LS_Y = 20
+    RS_X = 20
+    RS_Y = 21
+    LS_X = 22
+    LS_Y = 23
 
 
 
